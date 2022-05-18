@@ -1,0 +1,71 @@
+@import "../colors";
+
+.benefits {
+  margin-bottom: 100px;
+  .container {
+    .benefits-title_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 70px;
+
+      .benefits_title {
+        position: relative;
+        width: 200px;
+
+        h3:after {
+          position: absolute;
+          content: '';
+          display: block;
+          width: 50px;
+          left: 0;
+          bottom: -15px;
+          border-bottom: 3px solid $aquaBlue;
+        }
+      }
+
+      .benefits_service-btn {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+
+        .service-btn_text {
+          width: 70%;
+          font-size: 11px;
+          line-height: 19px;
+          letter-spacing: 0.2px;
+        }
+
+        .service-btn_link {
+          
+        }
+      }
+    }
+
+    .benefits_list {
+      display: flex;
+      gap: 30px;
+      height: 300px;
+      .benefits_list-item {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        padding: 20px;
+        border: 1px solid #E6E6E6;
+        .item-img {}
+
+        .item-title {
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.426667px;
+        }
+
+        .item-text {
+          font-size: 13px;
+          line-height: 23px;
+          letter-spacing: 0.1875px;}
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "../colors";
+
+.blue_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: $aquaBlue;
+  transition: 0.3s ease;
+  cursor: pointer;
+
+  a {
+    color: $white;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

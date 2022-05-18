@@ -1,0 +1,158 @@
+@import "../colors";
+
+.footer {
+  color: $white;
+
+  .footer_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #171819;
+
+    .footer_signup-title {
+      min-width: 205px;
+      margin-right: 70px;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.846154px;
+
+    }
+
+    form {
+      display: flex;
+
+      input {
+        width: 250px;
+        padding: 10px 16px;
+        font-size: 14px;
+        line-height: 16px;
+        border: 1px solid #979797;
+      }
+
+      .form-btn {
+        margin: 0;
+      }
+    }
+
+    .footer_signup-form {}
+  }
+
+  .footer_contact-info {
+    background-color: #141A20;
+    display: flex;
+
+    .container {
+      display: flex;
+      align-items: center;
+      height: 240px;
+      gap: 40px;
+
+
+      .contact-info_logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 37%;
+        height: 150px;
+
+        .logo_company {
+          font-size: 11px;
+          line-height: 13px;
+          text-align: center;
+          letter-spacing: 0.8462px;
+        }
+
+        .logo_link {
+          margin-left: -5px;
+        }
+
+        .logo_text {
+          font-size: 11px;
+          line-height: 19px;
+          letter-spacing: 0.85px;
+        }
+
+      }
+
+      .contact-info_links {
+        width: 50%;
+
+        p {
+          margin-bottom: 15px;
+          font-size: 11px;
+          line-height: 13px;
+          letter-spacing: 0.846154px;
+        }
+
+        .links-list {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          height: 125px;
+
+          .links-list_item {
+            width: fit-content;
+            font-size: 11px;
+            line-height: 25px;
+            letter-spacing: 0.846154px;
+          }
+        }
+      }
+
+      .contact-info_contacts {
+        width: 23%;
+
+        p {
+          margin-bottom: 15px;
+          font-size: 11px;
+          line-height: 13px;
+          letter-spacing: 0.846154px;
+        }
+
+        .contacts_address {
+
+          p,
+          a {
+            font-size: 11px;
+            line-height: 16px;
+            letter-spacing: 0.846154px;
+
+          }
+
+          a {
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .contact-info_social {
+        display: flex;
+        align-self: flex-start;
+        gap: 25px;
+        padding-top: 40px;
+       .social {
+         width: 15px;
+         height: 15px;
+         padding-top: 35px;
+         filter: invert(1);
+       }
+      }
+    }
+
+  }
+
+  .footer_agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    background-color: #171819;
+  }
+}

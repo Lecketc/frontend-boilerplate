@@ -1,0 +1,26 @@
+@import "../colors";
+
+.get-info {
+  height: 500px;
+  background: url('../app/img/bg/bg-info.png') 0 0/cover no-repeat;
+  background-position: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .get-info_title {
+      width: 400px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: 0.15px;
+    }
+
+    .get-info_btn {}
+  }
+}
