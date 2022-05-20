@@ -1,2 +1,2 @@
-console.log(123);
+try{const e=document.querySelector(".nav_burger"),t=document.querySelector(".nav_items"),c=document.querySelector(".nav_items ul"),n=()=>{t.classList.toggle("nav_items__active")};e.addEventListener("click",n),document.addEventListener("click",(n=>{n.target!==e&&n.target!==c&&t.classList.remove("nav_items__active")}))}catch(e){console.log(e)}
 //# sourceMappingURL=all.js.map

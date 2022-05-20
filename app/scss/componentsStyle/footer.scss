@@ -2,6 +2,7 @@
 
 .footer {
   color: $white;
+  overflow: hidden;
 
   .footer_signup {
     display: flex;
@@ -36,7 +37,8 @@
       }
     }
 
-    .footer_signup-form {}
+    .footer_signup-form {
+    }
   }
 
   .footer_contact-info {

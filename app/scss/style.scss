@@ -9,6 +9,7 @@
 @import "componentsStyle/get-info";
 @import "componentsStyle/footer";
 @import "components/buttons";
+@import "mediaQueries/mediaQueries";
 
 
 
@@ -16,6 +17,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #48555B;
+}
+
+.wrapper{
+  overflow: hidden;
 }
 
 .container {

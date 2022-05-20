@@ -27,7 +27,7 @@
       align-items: center;
       height: 100%;
 
-     
+
 
       .hero_main-text {
         h1 {
@@ -64,6 +64,8 @@
   }
 
   .header_nav {
+    position: sticky;
+    top: 0;
     margin-top: 30px;
     height: 65px;
     width: 100%;
@@ -91,9 +93,12 @@
           gap: 3em;
 
           li {
+            width: 50px;
             font-size: 12px;
             line-height: 14px;
+            font-weight: 500;
             letter-spacing: 1.09091px;
+            text-align: center;
             cursor: pointer;
           }
 
@@ -101,6 +106,21 @@
             color: $aquaBlue;
             transition: .3s ease;
           }
+        }
+      }
+
+      .nav_items__active {
+        ul {
+          top: 0 !important;
+        }
+      }
+
+      .nav_burger {
+        z-index: 2;
+        cursor: pointer;
+
+        img {
+          pointer-events: none;
         }
       }
     }
